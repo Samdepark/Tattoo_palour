@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav h1 {
+  color: aliceblue;
+  margin-right: 10rem;
+}
+.nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  background-color: #4e4949;
+  padding: 20px;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.nav a {
+  color: azure;
+  text-decoration: none;
+  padding: 7px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.nav a:hover {
+  color: #e9a239;
+  font-size: large;
+  cursor: default;
+}
